@@ -1,0 +1,51 @@
+:root {
+  --primary: #00100b;
+  --secondary: #fff;
+  --highlight: #55828b;
+  --subdued: #bd897e;
+
+  --shadow: 51, 30, 56; /* primary color in RGB form */
+  --navbar: 190, 227, 219;
+  --highlight-rgb: 78, 128, 152;
+
+  --default-transition: 0.3s ease;
+
+  --icon-size: 3rem;
+  --navbar-height: 2.5rem;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--secondary);
+
+  --color-heading: var(--primary);
+  --color-text: var(--primary);
+}
+
+body {
+  margin: 0;
+  color: var(--color-text);
+  background: var(--color-background);
+  line-height: 1.6;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--color-text);
+}
